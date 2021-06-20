@@ -1,4 +1,24 @@
 .concept {
-    width: 1440px;
+    width: 100%;
     height: 745px;
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: 100% 100%;
 }
+
+
+
+.header {
+    height: 78px;
+    padding-top: 1rem;
+    &__logo {
+        max-width: 209px;
+    }
+    &__nav {
+        color: $color-gray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+}
+
