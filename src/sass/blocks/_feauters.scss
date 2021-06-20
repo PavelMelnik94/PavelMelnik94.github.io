@@ -1,0 +1,12 @@
+.feauters {
+    min-height: 480px;
+    &__item {
+        
+        min-height: 225px;
+        img {
+            display: block;
+            margin-left: -25px;
+            
+        }
+    }
+}
