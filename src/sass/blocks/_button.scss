@@ -1,0 +1,82 @@
+.btn__start {
+  width: 245px;
+  height: 52px;
+  border: none;
+  background-color: #34dd45;
+  border-radius: 61.5463px;
+  color: #ffffff;
+  font-size: 17.9463px;
+  line-height: 32px;
+  outline: none;
+  &:hover {
+    background-color: #34b440;
+    color: rgba(255, 255, 255, 0.87);
+    outline: none;
+  }
+  &:active {
+    outline: none;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #47f758;
+  }
+  &:focus-within {
+    outline: none;
+  }
+  &-card {
+    width: 245px;
+    height: 52px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 61.5463px;
+    color: rgba(50, 47, 47, 1);
+    font-size: 17.9463px;
+    line-height: 32px;
+    outline: none;
+    &:hover {
+      background-color: #34b440;
+      color: rgba(255, 255, 255, 0.87);
+      outline: none;
+    }
+    &:active {
+      outline: none;
+      color: rgba(255, 255, 255, 0.87);
+      background-color: #47f758;
+    }
+    &:focus-within {
+      outline: none;
+    }
+  }
+}
+
+.btn__login {
+  width: 115px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border-radius: 61.5463px;
+  color: #ffffff;
+  border: 1px solid #fffcfc;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  outline: none;
+  &:hover {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: rgba(52, 180, 64, 1);
+    border: 1px solid rgba(52, 180, 64, 1);
+    outline: none;
+  }
+  &:active {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: rgba(71, 246, 88, 1);
+    border: 1px solid rgba(71, 246, 88, 1);
+    outline: none;
+  }
+  &:focus-within {
+    outline: none;
+  }
+}
+
+

@@ -1,0 +1,87 @@
+.fs__h1 {
+  font-weight: 800;
+  font-size: 51.8523px;
+  line-height: 57px;
+  color: #ffffff;
+  &-mobile {
+    font-size: 24px;
+    line-height: 35px;
+  }
+}
+
+.fs__h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 39px;
+  color: #000000;
+  &-mobile {
+    font-size: 20px;
+  }
+}
+
+.fs__h3 {
+  color: $color-black;
+  font-weight: 400px;
+  font-size: 30px;
+  line-height: 25px;
+  &-mobile {
+    font-size: 18px;
+  }
+}
+
+.fs__p {
+  color: $color-black;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 28px;
+  &-mobile {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.fs__btn {
+  color: $color-gray;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.fs__link {
+  color: $color-purple;
+  font-size: 12px;
+}
+
+.fz__menu {
+  color: $color-gray;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.fs__title-card {
+  color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15.9963px;
+  line-height: 22px;
+}
+
+.fs__link {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  color: $color-gray;
+  &:hover {
+    color: rgba(52, 180, 64, 1);
+    text-decoration: none;
+  }
+  &:active {
+    color: rgba(71, 246, 88, 1);
+    text-decoration: none;
+  }
+}

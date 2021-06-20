@@ -1,16 +1,24 @@
 @import 'libs/bootstrap-reboot.min';
-@import url('/src/sass/base/_fonts.scss');
+@import 'base/fonts';
+
+//assets
+@import 'base/variables';
+@import 'base/typography';
+@import 'base/mixins';
+
+//bloks
+@import 'blocks/concept';
+@import 'blocks/feauters';
+@import 'blocks/info';
+@import 'blocks/tarif';
+
+@import 'blocks/modal';
+@import 'blocks/button';
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgba(242, 242, 242, 1);
 }
 
-.container__ASP {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between
-}
