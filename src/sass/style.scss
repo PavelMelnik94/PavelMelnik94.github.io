@@ -11,19 +11,25 @@
 @import 'blocks/feauters';
 @import 'blocks/info';
 @import 'blocks/tarif';
+@import 'base/media';
 @import 'blocks/footer';
 
 @import 'blocks/modal';
 @import 'blocks/button';
 
-@import 'base/media';
 
 * {
     font-family: 'Gilroy', sans-serif;
     margin: 0;
     padding: 0;
     background-color: transparent;
+    scroll-behavior: smooth;
 }
+
+body {
+    font-family: 'Gilroy', sans-serif;
+}
+
 
 .hidden {
     display: none;

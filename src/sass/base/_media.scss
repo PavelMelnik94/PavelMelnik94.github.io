@@ -1,118 +1,266 @@
-// Устройства X-Small (портретные телефоны, менее 576 пикселей)
-@media (max-width: 575.98px) { 
-    .social-absolute {
-        position: absolute;
-            left: 50% !important;
-            transform: translateX(-50%);
-    }
-    .offer {
-        h1 {
-            font-size: 24px !important;
-            line-height: 35px;
-        }
-        &__subtitle {
-            margin: 41px 0 41px 0;
-            font-size: 16px;
-            line-height: 20px;
-            text-align: center;
-        }
-        &__social_icon {
-            margin: 40px auto 69px;
-        }
-        
-    }
-    .btn-absolute {
-
-        position: absolute;
-        left: 50% !important;
-        transform: translateX(-50%);
+.row {
+  --bs-gutter-x: 0;
 }
-    
-    .btn__start {
-        display:block !important;
-        margin: 0 auto !important;
-        width: 211.1px !important;
-        height: 52px !important;
+@media (max-width: 575.98px) {
+  html {
+    width: 100%;
+  }
+  .social-absolute {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+  }
+  .offer {
+    h1 {
+      font-size: 24px !important;
+      line-height: 35px;
     }
-    .concept {
-        max-height: 700px;
+    &__subtitle {
+      margin: 41px 0 41px 0;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
     }
-    .concept__promo_img {
-        position: absolute;
-        width: 275px;
-        height: 223.85px;
-        // margin: -540px 50% 0px;
-        // transform: translateX(-50%);
+    &__social_icon {
+      margin: 40px auto 69px;
     }
- }
+  }
+  .btn-absolute {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+  }
 
-// Устройства Small (телефоны с горизонтальной ориентацией, менее 768 пикселей)
-// @media (max-width: 767.98px) { 
-   
-//  }
+  .btn__start {
+    display: block !important;
+    margin: 0 auto !important;
+    width: 211.1px !important;
+    height: 52px !important;
+  }
+  .concept {
+    max-height: 700px;
+  }
+  .concept__promo_img {
+    position: absolute;
+    width: 275px;
+    height: 223.85px;
+  }
 
-// Устройства Medium (планшеты, менее 992 пикселей)
-@media (max-width: 991.98px) { 
-    .offer__title {
-        font-size: 47.8px !important;
-        text-align: center;
+  .feauters {
+    &-xs {
+      font-size: 20px;
+      line-height: 39px;
     }
-    .feauters{
-        padding-top: 80px;
-        h2 {
-            margin-bottom: 0;
-        }
-        &__item {
-            text-align: center;
-            min-height: 225px;
-            margin-top: 45px;
-            &_img {
-                display:flex;
-                justify-content: center;
-                
-            }
-        }
+    img {
+      margin: 0;
     }
-    .concept {
-        height: 940px;
+    h2 {
+      font-size: 18px;
+      line-height: 25px;
     }
-    .offer__title {
-        font-size : 51.8px;
+    p {
+      width: 302px;
+      height: 60px;
+      font-size: 16px;
+      line-height: 20px;
+      margin: 0 auto !important;
     }
-    .panel__logo{
-        max-width: 140px;
+  }
+
+  .info {
+    min-height: 120px;
+    height: 320px !important;
+    img {
+      width: 238.61px;
+      height: 181px;
+      margin-left: 50%;
+      transform: translateX(-50%);
     }
-    .concept__promo_img{
-        top: 540px;
-        right: 50%;
-        transform: translateX(+50%);
+    h2 {
+      font-size: 20.0515px;
+      line-height: 23px;
+      text-align: center !important;
     }
-    .info__text {
-        margin-top: 0; 
-        min-width: 469px;
-        &_descr {
-            text-align: center;
-        }
+    &__text {
+      min-width: 100% !important;
     }
-    .tarif {
-        min-height: 1000px;
-        max-height: 1001px;
-        // margin-bottom: -250px;
+    &__text_descr {
+      font-size: 16px;
+      line-height: 20px;
+      width: 303px;
+      height: 124px;
+      margin: 0 auto;
+    }
+  }
+
+  .tarif {
+    margin-top: 0;
+    height: 1980px !important;
+    min-height: auto !important;
+    max-height: unset !important;
+    background-size: 100% 30% !important;
+    &-header-xs {
+      font-size: 20px;
+      line-height: 39px;
+      margin-top: 70px;
+      margin-bottom: 44px;
+    }
+    &__card_header {
+      font-size: 36px;
+      line-height: 39px;
+    }
+    &__card_price {
+      font-size: 36px;
+      line-height: 39px;
+    }
+    &__cards {
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      margin-bottom: 70px;
+    }
     &__card {
-        position: relative;
-        width: 225px;
-        height: 528px;
-        border: 1px solid #828282;
-        border-radius: 16px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-        padding-top: 33px;
-        margin-bottom: -120px;
- }
+      margin-bottom: 10px !important;
+      width: 304px !important;
+      height: 449px !important;
+    }
+    &__subinfo {
+      h2 {
+        font-size: 20px !important;
+        line-height: 24px;
+      }
+    }
+    &__subinfo {
+      margin: 0 auto !important;
+    }
+    &__subinfo_header {
+        width: 304px;
+        height: 69px;
+        margin: 0 auto;
+      margin-bottom: 25px;
+    }
+    &__subinfo_descr {
+      font-size: 16px;
+      line-height: 20px;
+      width: 304px;
+      height: 57px;
+      margin-bottom: 58px;
+    }
+    &__subinfo_form {
+      width: 303px;
+      height: 127px;
+      margin: 0 auto;
+    }
+    &__subinfo_input {
+      width: 303px;
+      height: 52px;
+      padding: 5px 25px 5px 25px;
+    }
+    .btn__form {
+      position: relative;
+      margin-top: 23px !important;
+    }
+  }
+
+  .footer__wrapper {
+    
+    width: 100% !important;
+    height: 200px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+
+  }
+ .footer__nav, .btn__footer {
+      margin: 0 auto;
+  }
+
+
+  .panel__logo {
+      margin-left: 50%;
+      transform: translateX(-40%);
+      width: 120px;
+      margin-bottom: 0;
+      min-height: 35px !important;
+      img{
+          width: 100%;
+          height: 100%;
+      }
+  }
+
+  .footer__nav {
+      margin-top: 0;
+  }
+
+
 }
- .btn-md {
+
+@media (max-width: 991.98px) {
+  .offer__title {
+    font-size: 47.8px !important;
+    text-align: center;
+  }
+  .feauters {
+    padding-top: 80px;
+    h2 {
+      margin-bottom: 0;
+    }
+    &__item {
+      text-align: center;
+      min-height: 225px;
+      margin-top: 45px;
+      &_img {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  .concept {
+    height: 940px;
+  }
+  .offer__title {
+    font-size: 51.8px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .panel__logo {
+    max-width: 140px;
+  }
+  .concept__promo_img {
+    top: 540px;
+    right: 50%;
+    transform: translateX(+50%);
+  }
+  .info__text {
+    margin-top: 0;
+    min-width: 469px;
+    &_descr {
+      text-align: center;
+    }
+  }
+  .tarif {
+    min-height: 1000px;
+    max-height: 1001px;
+    // margin-bottom: -250px;
+    &__card {
+      position: relative;
+      width: 225px;
+      height: 528px;
+      border: 1px solid #828282;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      padding-top: 33px;
+      margin-bottom: -120px;
+    }
+  }
+  .btn-md {
     width: 191px;
     height: 63px;
     border: none;
@@ -122,40 +270,33 @@
     font-size: 17.9463px;
     line-height: 32px;
     outline: 0;
- }
- .btn-md-card {
+  }
+  .btn-md-card {
     width: 191px;
     height: 63px;
     border: none;
-    background-color: rgba(255,255,255,.87);
+    background-color: rgba(255, 255, 255, 0.87);
     border-radius: 61.5463px;
     color: #322f2f;
     font-size: 17.9463px;
     line-height: 32px;
     outline: 0;
- }
- .tarif {
+  }
+  .tarif {
     height: 1245px;
     background-color: #f2f2f2;
     background: url(../img/bg_tarif.jpg) no-repeat;
     background-position-y: bottom;
     background-size: 100% 65%;
     margin-top: 145px;
-}
-.btn-absolute {
-    
-        position: absolute;
-        left: 0;
-    
-}
-.social-absolute {
+  }
+  .btn-absolute {
     position: absolute;
-        left: -1rem;
-        margin-top: 6rem;
+    left: 0;
+  }
+  .social-absolute {
+    position: absolute;
+    left: -1rem;
+    margin-top: 6rem;
+  }
 }
-}
-// Устройства Large (настольные компьютеры, менее 1200 пикселей)
-// @media (max-width: 1199.98px) { ... }
-
-// Устройства X-Large (большие настольные компьютеры, менее 1400 пикселей)
-// @media (max-width: 1399.98px) { ... }
