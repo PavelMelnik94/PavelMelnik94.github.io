@@ -1,0 +1,27 @@
+.info {
+    background-color: white;
+    min-height: 480px;
+    &__img {
+        margin-top: 30px;
+    }
+    &__text {
+        margin-top: 104px;
+        width: 436px;
+        text-align: center;
+    }
+    #img {
+        grid-area: 'img-info';
+    }
+    #text {
+        grid-area: 'text-info';
+    }
+    &-descr {
+        font-weight: 600;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+}

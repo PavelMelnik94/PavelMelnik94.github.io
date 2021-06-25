@@ -1,0 +1,66 @@
+.tarif {
+  min-height: 1170px;
+  background-color: #f2f2f2;
+  background: url(../img/bg_tarif.jpg) no-repeat;
+  background-position-y: bottom;
+  background-size: 100% 65%;
+  margin-top: 70px;
+  &__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 160px;
+  }
+  &__card {
+      position: relative;
+    width: 347px;
+    height: 528px;
+    border: 1px solid #828282;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-top: 33px;
+    &_header {
+      margin-bottom: 24px;
+    }
+    &_price {
+      margin-bottom: 52px;
+    }
+    &_info {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+min-width: 140px;
+min-height: 100px;
+    }
+    &-dark {
+        background-color: #322F2F;
+    }
+  }
+  &__subinfo_header {
+    max-width: 664px;
+      margin-bottom: 46px;
+  }
+  &__subinfo_descr {
+      max-width: 491px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 60px;
+  }
+  &__subinfo_form {
+      width: 447px;
+      position: relative;
+  }
+  &__subinfo_input {
+      background-color: #fff;
+      width: 447px;
+      height: 55px;
+      outline: none;
+      border-radius: 61.55px;
+      padding: 10px 250px 10px 32px
+  }
+}

@@ -44,6 +44,7 @@
     &:focus-within {
       outline: none;
     }
+   
   }
 }
 
@@ -83,3 +84,14 @@
 }
 
 
+.btn__absolute-top {
+  position: absolute;
+  display: block;
+  bottom: 25px;
+}
+
+.btn__form {
+  position: absolute;
+  top: 2px;
+  right: 0px;
+}

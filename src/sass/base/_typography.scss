@@ -23,6 +23,9 @@
     font-weight: bold;
     text-align: center;
   }
+  &-white {
+    color: rgba(255, 255, 255, 0.87);
+  }
 }
 
 .fs__h3 {
@@ -48,6 +51,9 @@
   }
   &-black {
     color: rgba(24, 24, 24, 1);
+  }
+  &-white {
+    color: rgba(255, 255, 255, 0.87);
   }
 }
 
@@ -95,4 +101,22 @@
     color: rgba(71, 246, 88, 1);
     text-decoration: none;
   }
+}
+
+.fs__bold {
+font-family: Gilroy;
+font-style: bolder;
+font-weight: 800;
+font-size: 36px;
+line-height: 70px;
+&-purple {
+  color: $color-purple;
+}
+&-white {
+  color: rgba(255, 255, 255, 0.87);
+}
+&-fz22{
+  font-size: 22px;
+  line-height: 22px;
+}
 }
