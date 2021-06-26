@@ -338,6 +338,164 @@
       }
   }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 769px) and (max-width: 991.98px) {
+    .offer__title {
+      font-size: 47.8px !important;
+      text-align: center;
+    }
+    .feauters {
+      padding-top: 80px;
+      h2 {
+        margin-bottom: 0;
+      }
+      &__item {
+        text-align: center;
+        min-height: 225px;
+        margin-top: 45px;
+        img {
+          display: flex !important;
+          justify-content: center !important;
+          margin-left: 0 !important;
+        }
+        &_img {
+          display: flex !important;
+          justify-content: center !important;
+          margin-left: 0 !important;
+        }
+      }
+    }
+    .concept {
+      height: 940px;
+    }
+    .offer__title {
+      font-size: 51.8px;
+    }
+  
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .panel__logo {
+      max-width: 140px;
+    }
+    .concept__promo_img {
+      top: 540px;
+      right: 50%;
+      transform: translateX(+50%);
+    }
+  
+    .info {
+      max-height: 2500px !important;
+    }
+    #text-info {
+        margin-top: 0 !important;
+        text-align: center !important;
+    }
+    .info__text {
+      margin-top: 0;
+      min-width: 469px;
+      &_descr {
+        text-align: center;
+      }
+    }
+    .info-wrapper {
+      display: flex !important;
+      flex-direction: column !important;
+      
+      img {
+          height: 80%;
+      }
+  }
+  
+    .tarif {
+      min-height: 1000px;
+      max-height: 1001px;
+      // margin-bottom: -250px;
+      &__card {
+        position: relative;
+        width: 225px;
+        height: 528px;
+        border: 1px solid #828282;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding-top: 33px;
+        margin-bottom: -120px;
+      }
+    }
+    .btn-md {
+      width: 191px !important;
+      height: 63px;
+      border: none;
+      background-color: #34dd45;
+      border-radius: 61.5463px;
+      color: #fff;
+      font-size: 17.9463px;
+      line-height: 32px;
+      outline: 0;
+    }
+    .btn-md-card {
+      width: 191px !important;
+      height: 63px;
+      border: none;
+      background-color: rgba(255, 255, 255, 0.87);
+      border-radius: 61.5463px;
+      color: #322f2f;
+      font-size: 17.9463px;
+      line-height: 32px;
+      outline: 0;
+    }
+    .tarif {
+      height: 1245px;
+      background-color: #f2f2f2;
+      background: url(../img/bg_tarif.jpg) no-repeat;
+      background-position-y: bottom;
+      background-size: 100% 65%;
+      margin-top: 145px;
+    }
+    .btn-absolute {
+      position: absolute;
+      left: 0;
+    }
+    .social-absolute {
+      position: absolute;
+      left: -1rem;
+      margin-top: 6rem;
+    }
+    
+  }
+
+  
+  
+
+
+
+
+
+
+
+
+
 
 
 
@@ -685,168 +843,190 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 769px) and (max-width: 991.98px) {
-  .offer__title {
-    font-size: 47.8px !important;
-    text-align: center;
-  }
-  .feauters {
-    padding-top: 80px;
-    h2 {
-      margin-bottom: 0;
-    }
-    &__item {
-      text-align: center;
-      min-height: 225px;
-      margin-top: 45px;
-      img {
-        display: flex !important;
-        justify-content: center !important;
-        margin-left: 0 !important;
-      }
-      &_img {
-        display: flex !important;
-        justify-content: center !important;
-        margin-left: 0 !important;
-      }
-    }
-  }
-  .concept {
-    height: 940px;
-  }
-  .offer__title {
-    font-size: 51.8px;
-  }
-
-  .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .panel__logo {
-    max-width: 140px;
-  }
-  .concept__promo_img {
-    top: 540px;
-    right: 50%;
-    transform: translateX(+50%);
-  }
-
-  .info {
-    max-height: 2500px !important;
-  }
-  #text-info {
-      margin-top: 0 !important;
-      text-align: center !important;
-  }
-  .info__text {
-    margin-top: 0;
-    min-width: 469px;
-    &_descr {
-      text-align: center;
-    }
-  }
-  .info-wrapper {
-    display: flex !important;
-    flex-direction: column !important;
     
-    img {
-        height: 80%;
-    }
+
+
+
+     @media (min-width: 992px) and (max-width: 1200px){
+        .offer__title {
+            font-size: 47.8px !important;
+            text-align: center;
+          }
+          .feauters {
+            padding-top: 80px;
+            h2 {
+            text-align: center;
+              margin-bottom: 0;
+              
+            }
+            &__item {
+              text-align: center;
+              min-height: 225px;
+              margin-top: 45px;
+              img {
+                display: flex !important;
+                justify-content: center !important;
+                margin-left: 0 !important;
+              }
+              &_img {
+                display: flex !important;
+                justify-content: center !important;
+                margin-left: 0 !important;
+              }
+            }
+          }
+          .concept {
+            height: 940px;
+            h1 {
+                margin: 0 auto;
+            }
+            span {
+                display: inline-block;
+                text-align: center;
+                margin: 0 auto;
+            }
+            
+          }
+
+          .icon-set {
+            //   margin-top: 50px !important;
+          }
+          .social-absolute {
+              left: 50% !important;
+              transform: translateX(-165%);
+          }
+          .btn-absolute {
+              margin-top: 30px;
+              margin-left: 50%;
+              transform: translateX(-50%);
+          }
+          .offer__title {
+            font-size: 51.8px;
+          }
+          .offer__social_icon {
+              
+          }
+        
+          .footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .panel__logo {
+            max-width: 140px;
+          }
+          .concept__promo_img {
+            top: 540px;
+            right: 50%;
+            transform: translateX(+50%);
+          }
+        
+          .info {
+            max-height: 2500px !important;
+            height: 600px;
+            &__img {
+                margin: 0 auto;
+            }
+            &__text_descr {
+                margin: 0 auto;
+                 width: 56%;
+            }
+          }
+          #text-info {
+              margin-top: 0 !important;
+              text-align: center !important;
+          }
+          .info__text {
+            margin-top: 0;
+            min-width: 469px;
+            &_descr {
+              text-align: center;
+            }
+          }
+          .info-wrapper {
+            display: flex !important;
+            flex-direction: column !important;
+            
+            img {
+                height: 80%;
+            }
+        }
+
+        
+          .tarif {
+            min-height: 1000px;
+            max-height: 1001px;
+            padding-top: 70px;
+            background-size: 100% 42% !important;
+            // margin-bottom: -250px;
+            &__card {
+              position: relative;
+              width: 275px;
+              height: 528px;
+              border: 1px solid #828282;
+              border-radius: 16px;
+              display: flex;
+              flex-direction: column;
+              align-content: center;
+              align-items: center;
+              padding-top: 33px;
+              margin-bottom: -120px;
+            }
+          }
+          .btn-md {
+            width: 191px !important;
+            height: 63px;
+            border: none;
+            background-color: #34dd45;
+            border-radius: 61.5463px;
+            color: #fff;
+            font-size: 17.9463px;
+            line-height: 32px;
+            outline: 0;
+          }
+          .btn-md-card {
+            width: 191px !important;
+            height: 63px;
+            border: none;
+            background-color: rgba(255, 255, 255, 0.87);
+            border-radius: 61.5463px;
+            color: #322f2f;
+            font-size: 17.9463px;
+            line-height: 32px;
+            outline: 0;
+          }
+          .tarif {
+            height: 1245px;
+            background-color: #f2f2f2;
+            background: url(../img/bg_tarif.jpg) no-repeat;
+            background-position-y: bottom;
+            background-size: 100% 65%;
+            margin-top: 145px;
+          }
+          .btn-absolute {
+            position: absolute;
+            left: 0;
+          }
+          .social-absolute {
+            position: absolute;
+            left: -1rem;
+            margin-top: 6rem;
+          }
+.tarif__subinfo_header {
+    margin: 0 auto;
 }
 
-  .tarif {
-    min-height: 1000px;
-    max-height: 1001px;
-    // margin-bottom: -250px;
-    &__card {
-      position: relative;
-      width: 225px;
-      height: 528px;
-      border: 1px solid #828282;
-      border-radius: 16px;
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      align-items: center;
-      padding-top: 33px;
-      margin-bottom: -120px;
-    }
-  }
-  .btn-md {
-    width: 191px !important;
-    height: 63px;
-    border: none;
-    background-color: #34dd45;
-    border-radius: 61.5463px;
-    color: #fff;
-    font-size: 17.9463px;
-    line-height: 32px;
-    outline: 0;
-  }
-  .btn-md-card {
-    width: 191px !important;
-    height: 63px;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.87);
-    border-radius: 61.5463px;
-    color: #322f2f;
-    font-size: 17.9463px;
-    line-height: 32px;
-    outline: 0;
-  }
-  .tarif {
-    height: 1245px;
-    background-color: #f2f2f2;
-    background: url(../img/bg_tarif.jpg) no-repeat;
-    background-position-y: bottom;
-    background-size: 100% 65%;
-    margin-top: 145px;
-  }
-  .btn-absolute {
-    position: absolute;
-    left: 0;
-  }
-  .social-absolute {
-    position: absolute;
-    left: -1rem;
-    margin-top: 6rem;
-  }
-  
-}
+.tarif__subinfo_descr {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.tarif__subinfo_form {
+    margin: 0 auto;
+}
+    
+     }
 
 
 
