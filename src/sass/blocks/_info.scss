@@ -1,19 +1,27 @@
 .info {
     background-color: white;
-    min-height: 480px;
+    max-height: 480px !important;
+    
     &__img {
         margin-top: 30px;
     }
     &__text {
         margin-top: 104px;
-        width: 436px;
+        // width: 436px;
         text-align: center;
     }
-    #img {
-        grid-area: 'img-info';
+.info-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+    #text-info {
+grid-area: paragraph;
+margin-top: 170px;
     }
-    #text {
-        grid-area: 'text-info';
+
+    #img-info {
+        grid-area: img;
     }
     &-descr {
         font-weight: 600;
