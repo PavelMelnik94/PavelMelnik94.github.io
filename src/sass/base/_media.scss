@@ -210,18 +210,18 @@
   border-radius: 8px;
   }
   
-  .modal__window .modal__window_dialog {
-    width: 400px;
-    height: 351px;
+  .modal__window_dialog {
+    width: 259px !important;
+    height: 381px !important;
     max-width: 800px;
     margin: 100px auto;
     
   }
   
-  .modal__window .modal__window_dialog .modal__window_content {
+  .modal__window_content {
     position: relative;
     width: 100%;
-    padding: 26px 78px 33px 78px;
+    padding: 30px 12px 33px 12px !important;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 6px;
@@ -234,9 +234,6 @@
   
   }
   
-  .modal__window
-    .modal__window_dialog
-    .modal__window_content
     .modal__window_close {
     position: absolute;
     top: 0px;
@@ -252,17 +249,17 @@
   }
   
   .modal__title{
-      margin: 0 auto;
-      width: 244px;
-      height: 50px;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 28px;
+      margin: 0 auto !important;
+      width: 239px !important;
+      height: 50px !important;
+      font-weight: 500 !important;
+      font-size: 18px !important;
       line-height: 25px;
-      color: #181818;
+      color: rgba(24, 24, 24, 1) !important;
       align-items: center;
-      text-align: center;
+      text-align: center !important;
       letter-spacing: 0.2px;
+      margin-bottom: 30px;
     }
   
   
@@ -273,8 +270,8 @@
       margin-top: 34px;
       input {
           padding: 1rem;
-  width: 348px;
-  height: 50px;
+          width: 225.33px !important;
+          height: 50px !important;
           background: #FFFFFF;
           border: 1px solid #828282;
           box-sizing: border-box;
@@ -288,9 +285,18 @@
   
       }
   }
-  
+
+  .btn-modal-container {
+    position: relative;
+    width: 221px !important;
+      height: 52px !important;
+    margin-top: 30px !important;
+    margin-bottom: 17px;
+    
+}
   .btn__modal {
-      margin-bottom: 17px;
+      width: 221px !important;
+      height: 52px !important;
   }
   
   .modal__window_content {
