@@ -1,19 +1,30 @@
 .concept {
+    overflow: hidden;
     min-width: 100%;
     height: 745px;
     background: url(../img/bg.svg) no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 92%;
     position: relative;
     background-color: #F2F2F2;
     &__promo_img {
         position: absolute;
         right: 86px;
         top: 257px;
+        animation: Slice 1.5s linear;
 
     }
 }
 
+@keyframes Slice{
+    0% {
+        right: -100%;
+    }
 
+    100% {
+right: 86px;
+    }
+
+ }
 
 .panel {
     height: 78px;

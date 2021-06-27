@@ -13,7 +13,7 @@
   .offer {
     h1 {
     text-align: center;
-    margin: 81px auto 0 !important;
+    margin: 30px auto 0 !important;
       font-size: 24px !important;
       line-height: 35px;
       max-width: 300px !important;
@@ -46,37 +46,56 @@
   }
   .concept {
     max-height: 700px;
+    background-size: 100% 90%;
   }
   .concept__promo_img {
     position: absolute;
     width: 275px;
     height: 246.85px;
-    top: 465px;
+    top: 454px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-48%);
   }
 
+
+img {
+    object-fit: scale-down;
+}
+
   .feauters {
-    &-xs {
-      font-size: 20px;
+    #feauters-xs {
+        padding-top: 6px;
+      font-size: 25px !important;
       line-height: 39px;
+      margin-bottom: 20px;
     }
     img {
-      margin: 0 auto;
+        width: 54px;
+height: 64px;
+      margin: 0 auto !important;
     }
     h2 {
+        
         text-align: center;
       font-size: 18px;
       line-height: 25px;
     }
     p {
         text-align: center;
-      width: 302px;
-      height: 60px;
+        width: 300px;
+        height: 80px;
       font-size: 16px;
       line-height: 20px;
       margin: 0 auto !important;
     }
+    &__item_img {
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+  .card-1 {
+      margin-bottom: 0px;
   }
 
 #text-info {
@@ -121,13 +140,13 @@
 
 
   .tarif {
-    padding-top: 70px !important;
+    padding-top: 10px !important;
     height: 1980px !important;
     min-height: auto !important;
     max-height: unset !important;
     background-size: 100% 30% !important;
     &-header-xs {
-      font-size: 20px;
+      font-size: 28px;
       line-height: 39px;
     //   margin-top: 70px;
       margin-bottom: 44px;
@@ -365,6 +384,10 @@
       h2 {
         margin-bottom: 0;
       }
+      p{
+          margin: 0 auto;
+          margin-top: 10px;
+      }
       &__item {
         text-align: center;
         min-height: 225px;
@@ -382,7 +405,8 @@
       }
     }
     .concept {
-      height: 940px;
+      height: 1035px;
+      background-size: 100% 85%;
     }
     .offer__title {
       font-size: 51.8px;
@@ -426,8 +450,11 @@
   }
   
     .tarif {
-      min-height: 1000px;
-      max-height: 1001px;
+      min-height: 1031px;
+      max-height: 1101px;
+      margin-top: 85px;
+    padding-top: 40px;
+    background-size: 100% 53% !important;
       // margin-bottom: -250px;
       &__card {
         position: relative;
@@ -468,7 +495,7 @@
     .tarif {
       height: 1245px;
       background-color: #f2f2f2;
-      background: url(../img/bg_tarif.jpg) no-repeat;
+      background: url(../img/bg_test.svg) no-repeat;
       background-position-y: bottom;
       background-size: 100% 65%;
       margin-top: 145px;
@@ -508,6 +535,9 @@
 
 // Устройства Small (телефоны с горизонтальной ориентацией, 576 пикселей и выше)
 @media (min-width: 576px) and (max-width: 768px) { 
+    img {
+        object-fit: scale-down;
+    }
     .social-absolute {
         position: absolute;
         left: 50% !important;
@@ -548,7 +578,8 @@
         height: 52px !important;
       }
       .concept {
-        max-height: 700px;
+        max-height: 740px;
+        background-size: 100% 92%;
       }
       .concept__promo_img {
         position: absolute;
@@ -556,17 +587,33 @@
         height: 246.85px;
         right: 50%;
         transform: translateX(50%);
-        top: 470px;
+        top: 499px;
       }
     
       .feauters {
-        &-xs {
-          font-size: 20px;
+        .feauters-xs {
+            padding-top: 50px;
+            margin-bottom: 60px;
+          font-size: 26px;
           line-height: 39px;
         }
-        img {
-          margin: 0 auto;
+        
+        &__item_img {
+ width: 100%;
+            display: flex !important;
+            justify-content: center !important;
+            img {
+                width: 54px;
+                height: 64px;
+               margin-left: 0;
+            }
         }
+        #img-1 {
+            margin-left: 0;
+        }
+        // img {
+        //   margin: 0 auto !important;
+        // }
         h2 {
             text-align: center;
           font-size: 18px;
@@ -848,6 +895,10 @@
 
 
      @media (min-width: 992px) and (max-width: 1200px){
+
+        img {
+            object-fit: scale-down;
+        }
         .offer__title {
             font-size: 47.8px !important;
             text-align: center;
@@ -858,6 +909,12 @@
             text-align: center;
               margin-bottom: 0;
               
+            }
+
+            p{
+                margin: 0 auto;
+                margin-top: 10px;
+                margin-bottom: 30px;
             }
             &__item {
               text-align: center;
@@ -876,7 +933,8 @@
             }
           }
           .concept {
-            height: 940px;
+            height: 1040px;
+            background-size: 100% 85%;
             h1 {
                 margin: 0 auto;
             }
@@ -998,7 +1056,7 @@
           .tarif {
             height: 1245px;
             background-color: #f2f2f2;
-            background: url(../img/bg_tarif.jpg) no-repeat;
+            background: url(../img/bg_test.svg) no-repeat;
             background-position-y: bottom;
             background-size: 100% 65%;
             margin-top: 145px;

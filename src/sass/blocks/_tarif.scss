@@ -1,11 +1,13 @@
 .tarif {
-  min-height: 1170px;
-  background-color: #f2f2f2 !important;
-  background: url(../img/bg_tarif.jpg) no-repeat;
-  background-position-y: bottom;
-  background-size: 100% 65%;
-  margin-top: 70px;
-  margin-bottom: -2px;
+  min-height: 1201px;
+    background-color: #f2f2f2!important;
+    // background: url(../img/bg_tarif.jpg) no-repeat;
+    background: url(../img/bg_test.svg) no-repeat;
+    background-position-y: bottom;
+    background-size: 100% 57%;
+    padding-top: 70px;
+    margin-top: 70px;
+    margin-bottom: -2px;
   &__cards {
     display: flex;
     flex-direction: row;

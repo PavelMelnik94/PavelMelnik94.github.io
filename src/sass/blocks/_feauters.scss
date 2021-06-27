@@ -1,13 +1,27 @@
 .feauters {
     background-color: #F2F2F2;
     min-height: 480px;
+    h2 {
+        font-weight: 600;
+    }
+    p {
+        width: 349px;
+height: 108px;
+font-size: 19px;
+line-height: 28px;
+    }
     &__item {
         
         min-height: 225px;
         img {
-            display: block;
-            margin-left: -25px;
-            
+            margin-left: - 25px;
         }
+        // &_img:first-child {
+        //     display: block;
+        //     margin-left: -25px;
+        // }
     }
+}
+#img-1 {
+    margin-left: -25px;
 }

@@ -1,17 +1,25 @@
-// элемент модального
-const modal = document.getElementById("modal"); // модалка
+document.addEventListener("DOMContentLoaded", function(event) {
+
+
+const modal = document.getElementById("modal"); // модалка с
 const modalClose = document.getElementById("modal-close"); //крестик
-const modalForm = document.getElementById('modal-form');
 const btnInnerModal = document.getElementById("btn-inner-modal"); // кнопка в модальном окне
 const inputName = document.getElementById('input-name'); //инпут имени
 const inputEmail = document.getElementById('input-email'); //инпут имейла
 const inputStart = document.getElementById('start'); //футер форма
 const startBtn = document.getElementById('start-btn'); //футер кнопка формы
+const accountExist = document.getElementById('account-alredy-exist'); //аккаунт уже существует
 
 // кнопки
-const btnLogin = document.getElementById("btn-login"); // кнопка логина в шапке
+const btnLoginHeader = document.getElementById("btn-login-header"); // кнопка логина в шапке
+const btnLoginFooter = document.getElementById("btn-login-footer"); // кнопка логина в шапке
 const btnModal = document.querySelectorAll(".btn-modal"); // коллекция из всех кнопок
 
+
+//login модальное
+const login = document.getElementById('modal_login'); // модальное
+const loginClose = document.getElementById('modal_login-close'); // крестик
+const loginNotAccount = document.getElementById('no-account');
 
 // hamburger 
 const burgerOpen = document.getElementById('burger-open');
@@ -19,19 +27,44 @@ const burgerClose = document.getElementById('burger-close');
 const burgerMenu = document.getElementById('burger-menu');
 
 
+//open login
+const openLogin = (button => {
+    button.addEventListener('click', (event) => {
+        login.classList.remove('d-none')
+        
+    })
+});
+openLogin(btnLoginHeader);
+openLogin(btnLoginFooter);
+
+// closed login
+loginClose.addEventListener('click', event => {
+    login.classList.add('d-none');
+})
+
+
+loginNotAccount.addEventListener('click', event => {
+    login.classList.add('d-none');
+    modal.classList.remove("d-none");
+})
+
+accountExist.addEventListener('click', event => {
+    modal.classList.add("d-none");
+    login.classList.remove('d-none');
+})
+
+
+
 burgerOpen.addEventListener('click', (event) => {
     burgerMenu.classList.add('menu-show');
-    burgerClose.classList.remove('hidden')
+    burgerClose.classList.remove('hidden');
 })
 
 burgerClose.addEventListener('click', (event) => {
     burgerMenu.classList.remove('menu-show');
     burgerMenu.classList.add('menu-hide');
-
     burgerClose.classList.add('hidden')
 })
-
-
 
 
   // открытие модалки по каждой кнопке на странице
@@ -56,12 +89,9 @@ const  emailCheck = (input) => {
 
     input.addEventListener('keyup', (event) => {
     if (validateEmail(input.value) === true ) {
-        // inputEmail.classList.remove('is-invalid');
-        // inputEmail.classList.add('is-valid');
         input.classList.remove('not-valid');
     } 
     if (validateEmail(input.value) === false ) {
-        // inputEmail.classList.remove('is-valid');
         input.classList.add('not-valid');
     }
 })
@@ -77,11 +107,14 @@ btnInnerModal.addEventListener('click', (event) => {
     inputName.value = '';
 })
 
-//очистка футер формы
+//очистка  формы акции
 startBtn.addEventListener('click', (event) => {
  event.preventDefault()
  inputStart.value = '';
 })
+    
+  });
 
 
-(function(){var el=document.createElement('script');el.type='text/javascript';el.src='https://micmro.github.io/performance-bookmarklet/dist/performanceBookmarklet.min.js';el.onerror=function(){alert("Looks like the Content Security Policy directive is blocking the use of bookmarklets\n\nYou can copy and paste the content of:\n\n\"https://micmro.github.io/performance-bookmarklet/dist/performanceBookmarklet.min.js\"\n\ninto your console instead\n\n(link is in console already)");console.log("https://micmro.github.io/performance-bookmarklet/dist/performanceBookmarklet.min.js");};document.getElementsByTagName('body')[0].appendChild(el);})();
+
+
