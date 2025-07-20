@@ -1,4 +1,6 @@
 import { HackathonCard } from "@/components/hackathon-card";
+import { AnimatedBeam } from '@/components/magicui/animated-beam';
+import { AnimatedBeamDemo } from '@/components/magicui/animateed-beam-demo';
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -39,6 +41,11 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      <section >
+        <AnimatedBeamDemo />
+        </section>
+
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">About</h2>
